@@ -25,7 +25,7 @@ To check that all the containers are running properly, use:
 **docker-compose ps**
 This will show the status of your containers (e.g., whether they are up or not).
 Access CKAN Web Interface
-Open your browser and go to **http://localhost:5000/**. 
+Open your browser and go to **http://localhost:8443/**. 
 You should see the CKAN homepage. 
 
 
