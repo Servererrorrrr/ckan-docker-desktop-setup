@@ -112,18 +112,4 @@ Enter the admin username and password you created in Step 6.
 
 You should now be logged into CKAN as the system administrator.
 
-✅ Summary
 
-By following these steps, you have:
-
-Installed Docker Desktop on Windows
-
-Cloned the CKAN GitHub repository
-
-Configured the .env file
-
-Started CKAN services using Docker Compose
-
-Accessed the CKAN web interface
-
-Created and logged in as an admin user
