@@ -1,11 +1,11 @@
 # ckan-docker-desktop-setup
 Notes for setting up CKAN using Docker Desktop on Windows.
 Since we are using Windows to set up the Ckan UI . We are goint to download the Docker Desktop for windows from the link mentioned below . 
-**Link-1 :- [https://docs.docker.com/desktop/setup/install/windows-install/(url)** 
+**Link-1 :- [https://docs.docker.com/desktop/setup/install/windows-install/]** 
 
 After installing the docker desktop . We would open any IDE of your choice . Here  I have used Visual Code Studio . 
 Ater oppening the Visual Studio Code we are going top copy the ckan github repository from the link mentioned below.
-**Link-2 :- [https://github.com/ckan/ckan](url)** 
+**Link-2 :- [https://github.com/ckan/ckan]** 
 After opening the Visvual Studio do the following steps. 
 **Step-1 :- Click on File then click on New Window . Then in the Start menu click on clone from Git Repository and Paste the Link-2 over there** . 
 **File ---> New Window ----> Start Menu ----> Clone on Clone from Git Repository ----> Paste the link-2 over there** . 
