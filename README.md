@@ -52,4 +52,4 @@ Exit the container by typing:
 
 
 Login to CKAN
-Now, go to **http://localhost:5000/user/login** and log in using the admin credentials you just created
+Now, go to **https://localhost:8443/user/login** and log in using the admin credentials you just created
