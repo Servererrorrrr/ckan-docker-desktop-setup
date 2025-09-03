@@ -1,8 +1,8 @@
-Setting up CKAN using Docker Desktop on Windows
+**Setting up CKAN using Docker Desktop on Windows**
 
 This guide provides a step-by-step process to set up CKAN (Comprehensive Knowledge Archive Network) using Docker Desktop on a Windows environment.
 
-1. Install Docker Desktop for Windows
+1. **Install Docker Desktop for Windows**
 
 Download Docker Desktop from the official link:
 **[https://docs.docker.com/desktop/setup/install/windows-install/]**
@@ -16,7 +16,7 @@ After installation, verify that Docker is running by executing:
 
 This command should display the installed Docker version, confirming that Docker services are up and running.
 
-2. Set Up IDE (Visual Studio Code Recommended)
+2. **Set Up IDE (Visual Studio Code Recommended**)
 
 Open Visual Studio Code (or any IDE of your choice).
 
@@ -31,7 +31,7 @@ Paste the GitHub link provided above
 
 Wait for a few minutes until all files (folders, YAML files, README, etc.) are downloaded into your workspace.
 
-3. Configure Environment Variables
+3. **Configure Environment Variables**
 
 Inside the cloned repository, locate the file named:
 
@@ -45,7 +45,7 @@ Inside the cloned repository, locate the file named:
 
 **Important**: This file defines environment variables such as ports, services, and configurations required for Docker to properly set up CKAN.
 
-4. Start Docker Containers
+4. **Start Docker Containers**
 
 Open a terminal in the project directory.
 
@@ -67,7 +67,7 @@ Verify that the containers are running:
 
 This displays the status of each container (e.g., Up or Exited).
 
-5. Access the CKAN Web Interface
+5. **Access the CKAN Web Interface**
 
 Once the services are running, open your browser.
 
@@ -76,7 +76,7 @@ Navigate to:
 
 You should now see the CKAN homepage.
 
-6. Create CKAN Admin User
+6. **Create CKAN Admin User**
 
 To manage CKAN, you need an admin account.
 
@@ -86,24 +86,24 @@ Run the following command to open a shell inside the CKAN container:
 
 **docker-compose exec ckan bash**
 
-Step 6.2 – Create an Admin User
+Step 6.2 – **Create an Admin User**
 
 Inside the container, run:
 
-ckan -c /etc/ckan/production.ini sysadmin add admin email=admin@example.com name=admin password=YOUR_PASSWORD
+**ckan -c /etc/ckan/production.ini sysadmin add admin email=admin@example.com name=admin password=YOUR_PASSWORD**
 
 
 Replace YOUR_PASSWORD with a strong password of your choice.
 
 Update admin@example.com with your own email ID.
 
-Step 6.3 – Exit the Container
+Step 6.3 – **Exit the Container**
 
 After creating the user, type:
 
 exit
 
-7. Log In to CKAN
+7. **Log In to CKAN**
 
 Open your browser and visit:
 👉 https://localhost:8443/user/login
