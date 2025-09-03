@@ -5,13 +5,13 @@ This guide provides a step-by-step process to set up CKAN (Comprehensive Knowled
 1. Install Docker Desktop for Windows
 
 Download Docker Desktop from the official link:
-👉 Docker Desktop Installation Guide
+**[https://docs.docker.com/desktop/setup/install/windows-install/]**
 
 Follow the installation instructions.
 
 After installation, verify that Docker is running by executing:
 
-docker --version
+**docker --version**
 
 
 This command should display the installed Docker version, confirming that Docker services are up and running.
@@ -21,7 +21,7 @@ This command should display the installed Docker version, confirming that Docker
 Open Visual Studio Code (or any IDE of your choice).
 
 Clone the official CKAN GitHub repository:
-👉 CKAN GitHub Repository
+**[https://github.com/ckan/ckan]**
 
 Go to: File → New Window
 
@@ -35,15 +35,15 @@ Wait for a few minutes until all files (folders, YAML files, README, etc.) are d
 
 Inside the cloned repository, locate the file named:
 
-.env.example
+**.env.example**
 
 
-Rename it to:
+**Rename it to:**
 
-.env
+**.env**
 
 
-⚡ Important: This file defines environment variables such as ports, services, and configurations required for Docker to properly set up CKAN.
+**Important**: This file defines environment variables such as ports, services, and configurations required for Docker to properly set up CKAN.
 
 4. Start Docker Containers
 
@@ -51,7 +51,7 @@ Open a terminal in the project directory.
 
 Run the following command to build and start the required containers in the background:
 
-docker-compose up -d
+**docker-compose up -d**
 
 
 This will:
