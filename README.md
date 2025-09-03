@@ -62,7 +62,7 @@ Start all CKAN services (Postgres, Solr, Redis, CKAN)
 
 Verify that the containers are running:
 
-docker-compose ps
+**docker-compose ps**
 
 
 This displays the status of each container (e.g., Up or Exited).
@@ -72,7 +72,7 @@ This displays the status of each container (e.g., Up or Exited).
 Once the services are running, open your browser.
 
 Navigate to:
-👉 http://localhost:8443/
+ http://localhost:8443/
 
 You should now see the CKAN homepage.
 
@@ -84,7 +84,7 @@ Step 6.1 – Access the CKAN Container
 
 Run the following command to open a shell inside the CKAN container:
 
-docker-compose exec ckan bash
+**docker-compose exec ckan bash**
 
 Step 6.2 – Create an Admin User
 
